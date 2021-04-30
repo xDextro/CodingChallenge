@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#sfondo{
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-top: 30px;
+}
+.transparente{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 800px;
+  margin: auto;
+  padding: 50px;
+  border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header{
+  text-align: center;
+  font-size: 24px;
+  color: lime;
+}
+header img{
+  display: block;
+  width: 200px;
+}
+
+nav{
+  background-color: lime;
+  padding: 10px;
+  text-align: center;
+}
+
+header img,nav{
+  margin: auto;
+}
+
+main{
+  color: white;
+}
+main strong{
+  font-size: 22px;
+}
+
+/* Carica della batteria */
+.BatteriaMedia, .BatteriaPiena, .BatteriaScarica{
+  height: 25px;
+  border-radius: 5px;
+}
+.BatteriaMedia{
+  background: Orange;
+  width: 300px;
+}
+.BatteriaPiena{
+  background: Lime;
+  width: 500px;
+}
+.BatteriaScarica{
+  background: Red;
+  width: 100px;
+}
+
+main>div{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
